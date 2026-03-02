@@ -2,7 +2,7 @@ provider "aws" {
   region = var.aws_region
 }
 
-resource "aws_vpc" "main" {
+resource "aws_vpc" "vpc-0081b187c0e9b09fd" {
   cidr_block = "172.16.0.0/16"
   instance_tenancy = "default"
   tags = {
