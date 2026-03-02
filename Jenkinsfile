@@ -33,7 +33,7 @@ pipeline {
                             echo 'Executing Apply...'
                             sh "terraform apply --auto-approve"
                           case 'destroy':
-                            echo 'Executing Apply...'
+                            echo 'Executing Destroy...'
                             sh "terraform destroy --auto-approve"
                             break
                         default:
